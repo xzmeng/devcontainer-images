@@ -7,7 +7,7 @@ CONFIG_HOME="/home/${USERNAME}/config"
 
 runuser -u "${USERNAME}" -- bash -c "
 rm -f ~/.zshrc
-rm -rf ~/.ohmyzsh
+rm -rf ~/.oh-my-zsh
 git clone https://github.com/xzmeng/config '${CONFIG_HOME}'
 cd '${CONFIG_HOME}' && ./install.sh
 "
