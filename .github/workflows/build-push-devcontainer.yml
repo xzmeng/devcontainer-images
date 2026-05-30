@@ -33,4 +33,4 @@ jobs:
           imageName: ${{ env.REGISTRY }}/${{ github.repository_owner }}/sandbox
           imageTag: latest
           push: always
-          # cacheFrom: ${{ env.REGISTRY }}/${{ github.repository_owner }}/sandbox:latest
+          noCache: true
