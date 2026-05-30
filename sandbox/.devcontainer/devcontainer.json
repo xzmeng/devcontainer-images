@@ -1,6 +1,8 @@
 {
   "name": "Sandbox",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
     "ghcr.io/devcontainers/features/python:1": {},
     "ghcr.io/devcontainers/features/node:2": {},
