@@ -22,6 +22,9 @@
       "extensions": []
     }
   },
+  "mounts": [
+    "source=${localEnv:HOME}/.zsh_secrets,target=/home/vscode/.zsh_secrets,type=bind"
+  ],
   "postCreateCommand": "echo 'Sandbox dev container is ready!'",
   "remoteUser": "vscode"
 }
